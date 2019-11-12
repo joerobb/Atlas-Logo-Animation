@@ -35,7 +35,7 @@ body {
 .diamond {
   transition: transform 2s;
   transform-origin: 50.5% 14.5%;
-  transform: rotate(1080deg);
+  -webkit-transform: rotate(1080deg);
 }
 
 .text {
