@@ -37,6 +37,9 @@ body {
   transform-origin: 50.5% 14.5%;
  -webkit-transform: rotate(1080deg);
  -ms-transform: rotate(1080deg);
+ -moz-transform:rotate(1080deg);
+ -o-transform:rotate(1080deg);
+  transform:rotate(1080deg);
 }
 
 .text {
