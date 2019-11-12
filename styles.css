@@ -29,19 +29,19 @@ body {
         transform: scale(1.05);
     }
 }
-
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(1080deg);
+		}
+}
 /* Transitions */
-.diamond {
-	transition: transform 2s infinite; 
-} 
 
-.diamond { 
-	transform-origin: 50.5% 14.5%;
-	-webkit-transform: rotate(1080deg);
-	-ms-transform: rotate(1080deg);
-	-moz-transform:rotate(1080deg); 
-	-o-transform:rotate(1080deg); 
-	transform:rotate(1080deg);
+.diamond {
+  animation: rotation 2s ease-out;
+  transform-origin: 50.5% 14.5%;
 }
 
 .text {
